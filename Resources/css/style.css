@@ -9,9 +9,9 @@ h1{
 }
 
 
-/*Login*/
-/*Configura el tamaño de la entrada de texto del login**/
-form {
+/*Login y SingIn*/
+
+.SingIn,.Login{
     text-align: center;
     width: 300px; /* Tamaño del cuadro */
     margin: 0 auto; /* Esto centra el formulario horizontalmente */
