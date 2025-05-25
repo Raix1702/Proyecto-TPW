@@ -1,0 +1,27 @@
+*{
+    background-color: #0ba293;
+}
+/*Centrar titulo*/
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color:#FF7F50;
+}
+
+
+/*Login*/
+/*Configura el tamaño de la entrada de texto del login**/
+form {
+    text-align: center;
+    width: 300px; /* Tamaño del cuadro */
+    margin: 0 auto; /* Esto centra el formulario horizontalmente */
+    margin-top: 150px; /* Ajusta el espacio desde arriba */
+    padding: 20px; /*genera espacio netre el borde del formulario y el contenido*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+
