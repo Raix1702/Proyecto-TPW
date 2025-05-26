@@ -1,13 +1,27 @@
 *{
+    margin:20 px;
+    padding:0 px;
+    box-sizing: border-box;
     background-color: #0ba293;
+}
+
+body{
+    background-color: #0ba293;
+    margin: 20px;
+    color:#000000 ;
 }
 /*Centrar titulo*/
 h1{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     color:#FF7F50;
 }
 
+.color-navbar{
+    background-color: 0ba293;
+   border-bottom: 1px solid #004d40; /* Color ligeramente más oscuro */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: sombra ligera */
+}
 
 /*Login y SingIn*/
 
