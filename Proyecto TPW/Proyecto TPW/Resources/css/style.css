@@ -1,0 +1,134 @@
+/* Reset general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo del body */
+body {
+    background-color: #0ba293;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Estilo para el título principal */
+/* Título principal destacado "VIDA SANA" */
+.vida-sana-titulo {
+    font-size: 4rem;
+    text-align: center;
+    color: #FF7F50;
+    margin-top: 60px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+/* Navbar personalizado */
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-brand, .nav-link {
+    color: #0ba293 !important;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #FF7F50 !important;
+}
+
+/* Carrusel */
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* Botón de búsqueda */
+.btn-outline-success {
+    border-color: #0ba293;
+    color: #0ba293;
+}
+
+.btn-outline-success:hover {
+    background-color: #0ba293;
+    color: #fff;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+
+    .carousel-caption {
+        font-size: 0.9rem;
+        padding: 15px;
+    }
+}
+.navbar-nav li {
+    list-style: none;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #0ba293;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .login-container {
+    height: 100vh; /* Toda la altura de la ventana */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .signin-container{
+    height: 100vh; /* Toda la altura de la ventana */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form h2 {
+    color: #0ba293;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #0ba293;
+    border-color: #0ba293;
+  }
+  
+  .btn-primary:hover {
+    background-color: #088472;
+    border-color: #088472;
+  }
+  
