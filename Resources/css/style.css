@@ -1,0 +1,42 @@
+*{
+    margin:20 px;
+    padding:0 px;
+    box-sizing: border-box;
+    background-color: #0ba293;
+}
+
+body{
+    background-color: #0ba293;
+    margin: 20px;
+    color:#000000 ;
+}
+/*Centrar titulo*/
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color:#FF7F50;
+}
+
+.color-navbar{
+    background-color: 0ba293;
+   border-bottom: 1px solid #004d40; /* Color ligeramente más oscuro */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: sombra ligera */
+}
+
+/*Login y SingIn*/
+
+.SingIn,.Login{
+    text-align: center;
+    width: 300px; /* Tamaño del cuadro */
+    margin: 0 auto; /* Esto centra el formulario horizontalmente */
+    margin-top: 150px; /* Ajusta el espacio desde arriba */
+    padding: 20px; /*genera espacio netre el borde del formulario y el contenido*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espacio entre los elementos */
+    
+}
+
+

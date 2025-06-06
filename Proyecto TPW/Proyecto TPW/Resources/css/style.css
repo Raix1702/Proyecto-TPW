@@ -12,9 +12,11 @@ body {
     color: #333;
 }
 
-/* Estilo para el título principal */
-/* Título principal destacado "VIDA SANA" */
-.vida-sana-titulo {
+/*  Estilo para el título principal 
+    Título principal destacado "VIDA SANA" 
+    Titulo principal destacado "SEGUIMIENTO ALIMENTICIO"
+    Titulo principal destacado "SEGUIMIENTO DE SUEÑO"*/
+.vida-sana-titulo, .seguimiento-alimenticio-titulo, .seguimiento-sueño-titulo, .record-semanal{
     font-size: 4rem;
     text-align: center;
     color: #FF7F50;
@@ -24,8 +26,6 @@ body {
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-
-
 /* Navbar personalizado */
 .navbar {
     background-color: #ffffff !important;
@@ -90,7 +90,7 @@ html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  .login-container {
+  .login-container,.signin-container {
     height: 100vh; /* Toda la altura de la ventana */
     display: flex;
     justify-content: center; /* Centra horizontalmente */
@@ -98,15 +98,7 @@ html, body {
     padding: 20px;
     box-sizing: border-box;
   }
-  .signin-container{
-    height: 100vh; /* Toda la altura de la ventana */
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
+ 
   form {
     background-color: white;
     padding: 30px;
